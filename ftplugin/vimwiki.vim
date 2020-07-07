@@ -699,3 +699,12 @@ if vimwiki#vars#get_wikilocal('auto_generate_tags')
     au BufWritePre <buffer> call vimwiki#tags#generate_tags(0)
   augroup END
 endif
+
+" Wiki auto comit
+"
+function! CommitFile()
+  w
+  execute "Gcommit -a -m 'update'"
+  Gpush
+endfunction
+autocmd BufWritePost * call CommitFile()
