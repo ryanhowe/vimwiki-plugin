@@ -440,7 +440,7 @@ hi def link VimwikiDelTextChar VimwikiMarkers
 hi def link VimwikiSuperScriptChar VimwikiMarkers
 hi def link VimwikiSubScriptChar VimwikiMarkers
 hi def link VimwikiCodeChar VimwikiMarkers
-hi def link VimwikiHeaderChar Constant
+hi def link VimwikiHeaderChar Statement
 
 hi def link VimwikiEqInCharT VimwikiMarkers
 hi def link VimwikiBoldCharT VimwikiMarkers
