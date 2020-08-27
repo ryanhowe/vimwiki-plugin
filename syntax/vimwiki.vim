@@ -440,7 +440,7 @@ hi def link VimwikiDelTextChar VimwikiMarkers
 hi def link VimwikiSuperScriptChar VimwikiMarkers
 hi def link VimwikiSubScriptChar VimwikiMarkers
 hi def link VimwikiCodeChar VimwikiMarkers
-hi def link VimwikiHeaderChar Statement
+hi def link VimwikiHeaderChar VimwikiMarkers
 
 hi def link VimwikiEqInCharT VimwikiMarkers
 hi def link VimwikiBoldCharT VimwikiMarkers
@@ -451,7 +451,7 @@ hi def link VimwikiDelTextCharT VimwikiMarkers
 hi def link VimwikiSuperScriptCharT VimwikiMarkers
 hi def link VimwikiSubScriptCharT VimwikiMarkers
 hi def link VimwikiCodeCharT VimwikiMarkers
-hi def link VimwikiHeaderCharT Statement
+hi def link VimwikiHeaderCharT VimwikiMarkers
 hi def link VimwikiLinkCharT VimwikiLinkT
 hi def link VimwikiNoExistsLinkCharT VimwikiNoExistsLinkT
 
