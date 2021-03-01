@@ -365,11 +365,11 @@ if vimwiki#vars#get_global('hl_headers') == 0
     execute 'hi def link VimwikiHeader'.s:i.' Title'
   endfor
 else
-  for s:i in range(1,6)
-    execute 'hi def VimwikiHeader'.s:i.' guibg=bg guifg='
-          \ .vimwiki#vars#get_global('hcolor_guifg_'.&background)[s:i-1].' gui=bold ctermfg='
-          \ .vimwiki#vars#get_global('hcolor_ctermfg_'.&background)[s:i-1].' term=bold cterm=bold'
-  endfor
+  " for s:i in range(1,6)
+  "   execute 'hi def VimwikiHeader'.s:i.' guibg=bg guifg='
+  "         \ .vimwiki#vars#get_global('hcolor_guifg_'.&background)[s:i-1].' gui=bold ctermfg='
+  "         \ .vimwiki#vars#get_global('hcolor_ctermfg_'.&background)[s:i-1].' term=bold cterm=bold'
+  " endfor
 endif
 
 
@@ -451,7 +451,7 @@ hi def link VimwikiDelTextCharT VimwikiMarkers
 hi def link VimwikiSuperScriptCharT VimwikiMarkers
 hi def link VimwikiSubScriptCharT VimwikiMarkers
 hi def link VimwikiCodeCharT VimwikiMarkers
-hi def link VimwikiHeaderCharT VimwikiMarkers
+hi def link VimwikiHeaderCharT  VimwikiMarkers
 hi def link VimwikiLinkCharT VimwikiLinkT
 hi def link VimwikiNoExistsLinkCharT VimwikiNoExistsLinkT
 

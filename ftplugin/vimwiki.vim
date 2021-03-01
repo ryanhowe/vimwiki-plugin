@@ -704,7 +704,7 @@ endif
 "
 function! CommitFile()
   w
-  execute "Gcommit -a -m 'update'"
-  Gpush
+  execute "Git commit -a -m 'update'"
+  execute "Git push"
 endfunction
 autocmd BufWritePost * call CommitFile()
