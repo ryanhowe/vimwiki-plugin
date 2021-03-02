@@ -707,4 +707,6 @@ function! CommitFile()
   execute "Git commit -a -m 'update'"
   execute "Git push"
 endfunction
-autocmd BufWritePost * call CommitFile()
+augroup vimwiki
+  autocmd BufWritePost <buffer> call CommitFile()
+augroup END
